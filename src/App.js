@@ -25,7 +25,6 @@ function App() {
   const events = [];
   const dispatch = useDispatch();
   const [country, setCountry] = useState("PK");
-
   const [allEvents, setAllEvents] = useState(events);
   const { currentState } = useSelector((state) => ({
     currentState: state.holidays,
